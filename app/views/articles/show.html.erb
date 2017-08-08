@@ -1,0 +1,7 @@
+<h1><%= @article.title %></h1>
+
+<%= @article.content %><br>
+<br>
+<a href="/posts/<%= @article.id %>/edit">Edit</a>
+<p><%= link_to 'View all articles', articles_path %></p>
+
